@@ -1,26 +1,50 @@
-# AIVA - AI Virtual Assistant for Homework
+# AIVA - AI Virtual Assistant
 
-AIVA (AI Virtual Assistant) is a simple homework bot designed to help users interact with documents and retrieve relevant information using natural language queries. It uses OpenAI's GPT models and a vector index-based search for efficient document understanding and response generation.
+## Project Overview
+AIVA is an AI-powered chatbot that uses document indexing and retrieval to provide intelligent responses based on a collection of training documents.
 
 ## Features
+- Document-based knowledge retrieval
+- Gradio web interface for easy interaction
+- Configurable AI model using GPT-3.5 Turbo
+- Simple directory-based document loading
 
-- Upload a directory of training documents
-- Automatically indexes document content for fast query responses
-- Accepts natural language questions
-- Provides context-aware answers
-- Interactive web interface via Gradio
+## Prerequisites
+- Python 3.7+
+- OpenAI API Key
 
-## Tech Stack
+## Installation
 
-- Python
-- OpenAI GPT (via `langchain` and `gpt_index`)
-- Gradio (for the user interface)
-- GPTSimpleVectorIndex for document indexing and querying
-
-## Setup Instructions
-
-### 1. Clone the repository
-
+### Dependencies
 ```bash
-git clone https://github.com/your-username/aiva-homework-bot.git
-cd aiva-homework-bot
+pip install gpt_index langchain gradio openai
+```
+
+### Setup
+1. Clone the repository
+2. Set your OpenAI API key in the script
+3. Place training documents in the `trainingDocs` directory
+
+## Configuration
+- Adjust model parameters in `construct_index()`:
+  - `max_input_size`: Maximum input token size
+  - `num_outputs`: Maximum response token size
+  - `temperature`: Controls response randomness
+
+## Usage
+```bash
+python AIVA.py
+```
+The script will:
+- Index documents from `trainingDocs`
+- Launch a Gradio web interface
+- Allow interactive querying of your document collection
+
+## Security Note
+⚠️ **Important**: Remove or replace the OpenAI API key before sharing the project publicly.
+
+## License
+[Add your project's license here]
+
+## Contributing
+[Add contribution guidelines if applicable]
