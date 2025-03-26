@@ -1,7 +1,7 @@
-# AIVA - AI Virtual Assistant
+# HWVA - Homework Virtual Assistant
 
 ## Project Overview
-AIVA (Artificially Intelligent Virtual Assistant) is a lightweight chatbot application that leverages OpenAI's GPT models to provide intelligent responses based on user-provided training documents. It uses a vector index to search and respond with context-aware answers. The interface is built using Gradio for ease of use.
+HWVA (Homework Virtual Assistant) is a lightweight chatbot application that leverages OpenAI's GPT models to provide intelligent responses based on user-provided training documents. It uses a vector index to search and respond with context-aware answers. The interface is built using Gradio for ease of use.
 
 ## Features
 - Document-based knowledge retrieval
