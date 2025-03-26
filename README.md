@@ -1,7 +1,7 @@
 # AIVA - AI Virtual Assistant
 
 ## Project Overview
-AIVA is an AI-powered chatbot that uses document indexing and retrieval to provide intelligent responses based on a collection of training documents.
+AIVA (Artificially Intelligent Virtual Assistant) is a lightweight chatbot application that leverages OpenAI's GPT models to provide intelligent responses based on user-provided training documents. It uses a vector index to search and respond with context-aware answers. The interface is built using Gradio for ease of use.
 
 ## Features
 - Document-based knowledge retrieval
