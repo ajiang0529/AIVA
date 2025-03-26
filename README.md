@@ -40,11 +40,5 @@ The script will:
 - Launch a Gradio web interface
 - Allow interactive querying of your document collection
 
-## Security Note
-⚠️ **Important**: Remove or replace the OpenAI API key before sharing the project publicly.
-
-## License
-[Add your project's license here]
-
 ## Contributing
-[Add contribution guidelines if applicable]
+Contributions are welcome! Please feel free to submit a Pull Request.
